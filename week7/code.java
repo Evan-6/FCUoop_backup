@@ -40,13 +40,11 @@ class commodity{
     }
 }
 
-
 public class Main {
-
     public static void main(String args[]) {
         Scanner a = new Scanner(System.in);
         int num = a.nextInt();
-        employ[] emp = new employ[1000];
+        employ[] emp = new employ[num];
         int b=num;
         for(int i=0 ; i<num ;i++){
             emp[i]=new employ();
@@ -77,13 +75,12 @@ public class Main {
                     emp[i].setKind(a.next());
                     break;
             }
-
         }
 
         num = a.nextInt();
         double weeksum=0;
 
-        commodity[] com = new commodity[1000];
+        commodity[] com = new commodity[num];
         for(int i=0 ; i<num ;i++){
             com[i]=new commodity();
             com[i].setName(a.next());
@@ -108,6 +105,3 @@ public class Main {
         }
     }
 }
-
-
-
