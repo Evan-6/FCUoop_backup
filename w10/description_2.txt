@@ -1,0 +1,31 @@
+請定義一個完全數類別，其中某個整數被稱為完全數（perfect number），是因為這個整數的因數（包括1，但不包括這個數本身）加起來的和等於該數。
+
+例如6便是個完全數，因為6=1+2+3。請撰寫一個方法isPerfect()來判斷參數number是否為一個完全數。
+
+
+
+請在Main Class中讀取輸入的數字，並且建立一個完全數物件，如需要設定建構子可以自行設定，然後執行isPerfect Method，輸出結果。
+
+
+
+
+
+577EAF39-46AB-4788-AD0F-8081C2D4487D.jpeg
+
+
+Input
+無
+
+
+Output
+無
+
+
+Sample Input 1 
+6
+Sample Output 1
+isPerfect
+Sample Input 2 
+99
+Sample Output 2
+notPerfect
