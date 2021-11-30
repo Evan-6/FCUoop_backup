@@ -1,0 +1,24 @@
+Description
+請建一個Reverse類別，其中有一個方法可以把陣列元素反轉，即索引值為0的元素成為最後1個索引值，最後1個索引元素成為索引值為0的元素。
+
+並再定義一個printArray方法輸出最後結果。
+
+
+
+image.png
+
+沒使用Reverse類別完成題目者會斟酌扣分。
+
+
+Input
+無
+
+
+Output
+無
+
+
+Sample Input 1 
+1 2 3 4 9 6 7 8 9
+Sample Output 1
+9 8 7 6 9 4 3 2 1
