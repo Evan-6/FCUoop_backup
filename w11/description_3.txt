@@ -1,0 +1,35 @@
+Description
+請建立Person類別，擁有姓名name和編號id，並新增一個printPerson成員方法，可用於顯示個人編號與姓名。
+
+然後宣告Student類別繼承Person類別，擁有3次考試成績，請覆寫printPerson方法，用於計算與顯示學生的總分與平均。
+
+image.png
+
+
+
+
+
+請參考的程式提示(網頁最下方)中的Person類別範例，宣告Student類別繼承Person類別來完成題目。
+
+沒使用類別，繼承等方式會斟酌扣分。
+
+
+Input
+第一行為name ID
+
+接下來三行為3次考試成績
+
+
+Output
+依照範例格式輸出name IDAverage score
+
+
+Sample Input 1 
+Kevin 30
+100
+98
+87
+Sample Output 1
+Student:Kevin
+ID:30
+Average score:95
