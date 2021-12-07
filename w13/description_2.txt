@@ -1,0 +1,49 @@
+Description
+承第一題，請在Vehicle定義一個建構方法可以設定引擊號碼、顏色，並在衍生類別Car中定義建構方法，使用super呼叫父類別的建構方法。
+
+image.png
+
+
+
+車籍資料:
+
+引擊號碼: 1233567
+
+顏色: W
+
+車門數: 4
+
+車籍資料
+
+引擊號碼: 5678567
+
+顏色: B
+
+車門數: 5
+
+
+
+
+
+
+
+沒使用Vehicle類別、定義Car類別繼承vehicle類別等方法，提交通過題目者，將會斟酌扣分，還有沒使用super呼叫父類別的建構方法等等通過題目者，提交通過題目者，將會斟酌扣分。
+
+
+Input
+資料與第一題相同
+
+
+Output
+無
+
+
+Sample Input 1 
+無
+Sample Output 1
+Engine Number:1233567
+Color:W
+Doors Number:4
+Engine Number:5678567
+Color:B
+Doors Number:5
