@@ -1,0 +1,68 @@
+Description
+定義一個Vehicle類別，其中車輛的基本資料為引擊號碼(int)和車色(char)，並定義適當的set方法及輸出方法printVehicle。
+
+另外，定義Car類別繼承vehicle類別，並新增資料車門(int)，並定義建構方法，呼叫類別的成員方法來設定引擊號碼和車色，並設定車門，
+
+覆寫輸出方法printCar，其中呼叫父類別的成員方法來輸出引擊號碼和車色，並輸出車門數。
+
+image.png
+
+-----------------------------------------------------------------------------------------------------
+
+車籍資料:
+
+引擊號碼: 1233567
+
+顏色: W
+
+車門數: 4
+
+
+
+車籍資料
+
+引擊號碼: 5678567
+
+顏色: B
+
+車門數: 5
+
+
+
+如要更改第二輛車的顏色為W，請撰寫method(setCar)請問如何修改，並再次輸出車籍資料
+
+引擊號碼: 5678567
+
+顏色: W
+
+車門數: 5
+
+
+
+沒使用Vehicle類別、定義Car類別繼承vehicle類別等方法，提交通過題目者，將會斟酌扣分。
+
+
+Input
+無
+
+
+Output
+請使用覆寫輸出方法printCar，呼叫父類別的成員方法來輸出引擊號碼和車色，並輸出車門數。
+
+
+
+接著使用更改Vehicle類別裡面的set方法，更改第二台車的顏色為W，再輸出(printCar)。
+
+
+Sample Input 1 
+無
+Sample Output 1
+Engine Number:1233567
+Color:W
+Doors Number:4
+Engine Number:5678567
+Color:B
+Doors Number:5
+Engine Number:5678567
+Color:W
+Doors Number:5
