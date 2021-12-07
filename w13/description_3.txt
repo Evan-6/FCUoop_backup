@@ -1,0 +1,63 @@
+Description
+請宣告Person類別，擁有name姓名和id編號，新增printPerson成員方法可以顯示個人資料。
+
+另外，請新增Teacher老師子類別和Salesperson業務員子類別來繼承Person，
+
+在老師子類類別中新增授課時數(共18週)，
+
+業務員子類別新增年薪成員變數，
+
+覆寫printPerson成員方法顯示老師平均每週授課時間和業務員的月薪。
+
+
+
+老師平均每週授課時間 = 授課時數/18
+
+業務員的月薪 =  年薪/12
+
+-----------------------------------------------------
+
+成員資料:
+
+姓名: Eric
+
+ID: 159598
+
+類別:Teacher
+
+授課時數: 144
+
+
+
+姓名: Amy
+
+ID: 158965
+
+類別:Salesperson
+
+年薪:432000
+
+
+
+image.png
+
+
+Input
+無
+
+
+Output
+無
+
+
+Sample Input 1 
+無
+Sample Output 1
+Name:Eric
+ID:159598
+Type:Teacher
+AverageHours:8
+Name:Amy
+ID:158965
+Type:Salesperson
+Salary:36000
