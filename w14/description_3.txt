@@ -1,0 +1,76 @@
+Description
+請建立Vehicle抽象類別，然後建立Car和Trucks子類別，多型的Show() 方法可以顯示車輛資料。
+
+
+
+image.png
+
+
+
+Car的show方法請輸出引擊號碼 價格 乘客人數
+
+EX:
+
+Engine Number:1233567
+
+Price:800000
+
+Passengers:7
+
+
+
+Trucks的show方法請輸出引擊號碼 價格 載貨量
+
+EX:
+
+Engine Number:5678567
+
+Price:1200000
+
+Cargo Capacity:30
+
+
+
+---------------------------------
+
+Car資料:
+
+引擊號碼: 1233567
+
+價格:800000
+
+乘客人數:7
+
+
+
+Trucks資料
+
+引擊號碼: 5678567
+
+價格:1200000
+
+載貨量:30
+
+
+
+多型的應用方法: (參考)
+image.png
+
+
+Input
+本題無輸入
+
+
+Output
+請使用show()輸出上述車輛的資料
+
+
+Sample Input 1 
+無
+Sample Output 1
+Engine Number:1233567
+Price:800000
+Passengers:7
+Engine Number:5678567
+Price:1200000
+Cargo Capacity:30
