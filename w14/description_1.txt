@@ -1,0 +1,84 @@
+Description
+請建立Person抽象類別宣告，total()抽象方法，
+
+其繼承的Student子類別擁有不同3次考試成績，total方法可以計算總分；
+
+其繼承的Employee子類別擁有hours的每月工作時數，total方法可以計算每日工時（一月24天）和工資（每小時800元）
+
+UML圖:
+
+image.png
+
+注意Person是斜體，代表抽象類別(abstract class)，它的方法total()也是斜體，代表抽象方法(abstract method)
+
+依照上圖，Person實做出來的程式碼參考如下:
+
+image.png
+
+
+
+-------------------------------------------------------
+
+Student資料:
+
+Name: Eric
+
+成績A:97
+
+成績B:80
+
+成績C:87
+
+
+
+Employee資料:
+
+hours: Amy
+
+hours:168
+
+
+
+Student的total方法請輸出姓名與總分
+
+EX:
+
+Name: Eric
+
+Total score: 264
+
+
+
+Employee的total方法請輸出每日工時與月薪
+
+EX:
+
+Name: Amy
+
+Daily hours: 7
+
+Salary: 134400
+
+
+
+
+
+:
+
+
+Input
+無
+
+
+Output
+請輸出Student與Employee的資料: 使用total()方法
+
+
+Sample Input 1 
+無
+Sample Output 1
+Name: Eric
+Total score: 264
+Name: Amy
+Daily hours: 7
+Salary: 134400
