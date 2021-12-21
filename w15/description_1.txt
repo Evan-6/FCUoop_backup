@@ -1,0 +1,52 @@
+Description
+
+定義PowerFailureException例外類別，類別中應該有一個無參數的建構子。
+
+如果在使用者所輸入的所需電量大於現有儲存電量，則抛出例外，getMessage就會傳回”Power Failure!”。
+
+
+
+現有儲存電量為3
+
+輸入大於3時，抛出例外 (throw exception)
+
+
+
+
+
+
+
+注意: 沒使用Exception通過題目繳交者，將斟酌扣分。
+
+
+Input
+第一個數字為接下來會輸入幾個input
+
+接下來的數字為input
+
+Ex:
+
+--------------------------------------------------
+
+3         //會輸入三個數字
+
+1
+
+2
+
+3
+
+
+Output
+如果大於3抛出例外 (throw exception)
+
+
+Sample Input 1 
+
+3
+1
+2
+4
+Sample Output 1
+
+Power Failure!
