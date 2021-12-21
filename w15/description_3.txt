@@ -1,0 +1,25 @@
+Description
+
+呈第二題，定義輸入負數的例外類別NegativeNumberException，並使用catch(NegativeNumberException e)，並輸出 "NegativeNumber"。
+
+
+Input
+無
+
+
+Output
+無
+
+
+Sample Input 1 
+
+-1
+Sample Output 1
+
+NegativeNumberException -1
+Sample Input 2 
+
+1111
+Sample Output 2
+
+BadNumberException 1111
