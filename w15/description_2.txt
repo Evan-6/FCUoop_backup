@@ -1,0 +1,37 @@
+Description
+
+在設定密碼時，如果密碼的位數為每個位數的值都是相同的，如1111，這是不安全的密碼，稱為bad number。
+
+
+
+請定義帶有int類型訊息的例外類別BadNumberException。
+
+請定義一個帶有整數引數的建構子，將所傳入的整數值設定為badNumber，其初使化的訊息字串為”BadNumberException” +badNumber。
+
+另外，再定義沒有引數的建構子，其中在沒有引數的建構中，初使化的訊息字串為”BadNumberException”。
+
+
+
+當使用者輸入的密碼為0000、1111、…9999，帶有整數引數的建構子抛出例外，如果使用者輸入的密碼為負數，則由沒有引數的建構子抛出例外。
+
+
+Input
+無
+
+
+Output
+無
+
+
+Sample Input 1 
+
+1111
+Sample Output 1
+
+BadNumberException 1111
+Sample Input 2 
+
+-1
+Sample Output 2
+
+BadNumberException
