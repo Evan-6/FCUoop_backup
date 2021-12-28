@@ -1,0 +1,28 @@
+Description
+請建立ArguementException自訂例外類別，類別可以處理參數傳入字串的例外。
+
+如果參數字串內含空白字元或英文字母，在轉換成整數int時會產生錯誤。
+
+請依錯誤代碼1(空白字元)、2(英文字母)、3(符號)顯示不同的錯誤訊息。
+
+
+Input
+無
+
+
+Output
+無
+
+
+Sample Input 1 
+1 1
+Sample Output 1
+ArguementException:1 空白字串
+Sample Input 2 
+1Abc233
+Sample Output 2
+ArguementException:2 英文字母
+Sample Input 3 
+1%@1
+Sample Output 3
+ArguementException:3 符號
