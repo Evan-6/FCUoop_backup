@@ -1,0 +1,30 @@
+Description
+請建立printNum()方法顯示2n+1的數例，例如: 1、3、5、7…，
+
+其參數是整數int且抛出下列例外物件:
+
+IllegalArgumentException:當參數小於0
+
+ArithmeticException:當參數大於100
+
+
+Input
+無
+
+
+Output
+無
+
+
+Sample Input 1 
+-1
+Sample Output 1
+Argument should be larger than 0
+Sample Input 2 
+101
+Sample Output 2
+Argument should be smaller than 100
+Sample Input 3 
+5
+Sample Output 3
+1,3,5,7,9,
