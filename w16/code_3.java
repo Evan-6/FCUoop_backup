@@ -4,10 +4,10 @@ public class Main {
 
     public static void main(String[] args) throws ArguementException {
         Scanner s = new Scanner(System.in);
-        String str=s.next();
+        String str=s.nextLine();
         try {
             for(int i=0 ; i<str.length() ; i++){
-                if(str.charAt(i)==' ') {
+                if(str.charAt(i) == ' ') {
                     throw new ArguementException(1," 空白字串");
                 }
                 else if((str.charAt(i)>='A' && str.charAt(i)<='Z')||(str.charAt(i)>='a'&&str.charAt(i)<='z')) {
@@ -32,8 +32,9 @@ class ArguementException extends Exception {
         this.msg=msg;
     }
     public String getMessage(){
-        return "ArguementException:"+Integer.toString(num)+msg;
+        return "ArguementException:"+Integer.toString(this.num)+this.msg;
     }
 
 }
+
 
