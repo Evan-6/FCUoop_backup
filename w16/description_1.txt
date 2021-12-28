@@ -1,0 +1,26 @@
+Description
+請在Java程式的main()方法建立例外處理程式 (try catch)敘述處理IllegalArgumentException例外，
+
+這個例外是由cal()方法所丟出，由main()方法接手處理。
+
+上述方法cal()需要傳入3個參數計算a*b/c的值，如果c為0時，則抛出例外，而例外說明為”c不能是0”。
+
+
+Input
+輸入三個數字a b c
+
+
+Output
+如果輸入的c為0，則拋出excrption
+
+如果輸入的c不為0，則顯示a*b/c
+
+
+Sample Input 1 
+1 3 0
+Sample Output 1
+c不能是0
+Sample Input 2 
+3 3 3
+Sample Output 2
+3
