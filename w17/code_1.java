@@ -1,8 +1,8 @@
-import java.io.*;
+import java.util.Scanner;
 public class Main {
-    public static void main(String args[])throws IOException {
-        BufferedReader buf=new BufferedReader(new InputStreamReader(System.in));
-        int m=Integer.parseInt(buf.readLine());
+    public static void main(String args[]){
+        Scanner a = new Scanner(System.in);
+        int m=a.nextInt();
         System.out.println(fib(m));
     }
 
